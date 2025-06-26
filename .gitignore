@@ -1,0 +1,10 @@
+alerce_lightcurves/
+alerce_stamps/
+logs/
+VETOS/
+# csv
+*.csv
+# json
+*.json
+# xlsx
+*.xlsx
