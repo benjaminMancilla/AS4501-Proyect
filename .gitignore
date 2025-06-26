@@ -4,7 +4,10 @@ logs/
 VETOS/
 # csv
 *.csv
+!veto_summary.csv
 # json
 *.json
 # xlsx
 *.xlsx
+
+.gitignore
