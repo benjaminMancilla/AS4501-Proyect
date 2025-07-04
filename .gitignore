@@ -5,6 +5,8 @@ VETOS/
 # csv
 *.csv
 !veto_summary.csv
+!consolidated.csv
+!all_alert_lightcurves_clean.csv
 # json
 *.json
 # xlsx
