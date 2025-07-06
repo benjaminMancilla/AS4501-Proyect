@@ -15,7 +15,7 @@ args = parser.parse_args()
 
 # File paths
 summary_csv   = 'veto_summary.csv'
-logs_dir    = os.path.join('logs', args.type)
+logs_dir    = os.path.join('logs', 'lc', args.type)
 success_file = os.path.join(logs_dir, 'success.csv')
 error_file   = os.path.join(logs_dir, 'errors.csv')
 out_dir     = os.path.join('alerce_lightcurves', args.type)
