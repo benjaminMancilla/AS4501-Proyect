@@ -67,7 +67,7 @@ def main():
     parser.add_argument(
         '--oid', required=True, help="ZTF object ID (e.g. ZTF23abcd...)")
     parser.add_argument(
-        '--dir', dest='stamps_dir', default='alerce_stamps',
+        '--dir', dest='stamps_dir', default='alerce_stamps/good',
         help="Folder with FITS stamps"
     )
     parser.add_argument(
