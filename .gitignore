@@ -11,3 +11,7 @@ VETOS/
 *.json
 # xlsx
 *.xlsx
+#joblib
+*.joblib
+# pickle
+*.pkl
