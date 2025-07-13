@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, StratifiedKFold
 
-df = pd.read_csv("baseline_data_cleaned.csv", dtype={"oid": str})
+df = pd.read_csv("tabular_data/baseline_data.csv", dtype={"oid": str})
 oids  = df["oid"].values
 labels= df["label"].values  # 'good'/'bad'
 
@@ -36,5 +36,5 @@ for fold_idx, (train_idx, val_idx) in enumerate(
         f"val_fold{fold_idx}"
     ] = 1
 
-folds_df.to_csv("stratified_folds.csv", index=False)
+folds_df.to_csv("folds/stratified_folds.csv", index=False)
 print("Folds estratificados guardados en stratified_folds.csv")
